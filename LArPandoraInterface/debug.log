@@ -1,0 +1,52 @@
+%MSG-i MF_INIT_OK:  Early 04-Dec-2018 05:45:25 CST JobSetup
+Messagelogger initialization complete.
+%MSG
+%MSG-i path:  Early 04-Dec-2018 05:45:50 CST JobSetup
+The following module labels are not assigned to any path:
+'calo', 'dbcluster', 'fasthit', 'hitfd', 'pandoraShower', 'pandoraTrack', 'pandoracali', 'pandoracalipid', 'pandoracalo', 'pandorapid', 'pmtrack', 'pmtrackcali', 'pmtrackcalipid', 'pmtrackcalo', 'pmtrackpid', 'pmtrajfit', 'pmtrajfitcalo', 'pmtrajfitpid', 'trigfilter'
+
+%MSG
+%MSG-i GeometryCore:  Early 04-Dec-2018 05:45:54 CST JobSetup
+New detector geometry loaded from 
+	/cvmfs/dune.opensciencegrid.org/products/dune/dunetpc/v07_11_00/gdml/protodune_v5.gdml
+	/cvmfs/dune.opensciencegrid.org/products/dune/dunetpc/v07_11_00/gdml/protodune_v5_nowires.gdml
+
+%MSG
+%MSG-i GeometryCore:  Early 04-Dec-2018 05:45:54 CST JobSetup
+Sorting volumes...
+%MSG
+%MSG-i DuneApaChannelMapAlg:  Early 04-Dec-2018 05:45:54 CST JobSetup
+Initializing channel map...
+%MSG
+Cryostat 0:
+  15360 total channels
+  6 APAs
+  For all identical APA:
+    Number of channels per APA = 2560
+    U channels per APA = 800
+    V channels per APA = 800
+    Z channels per APA = 960
+    Pitch in U Plane = 0.4669
+    Pitch in V Plane = 0.4669
+    Pitch in Z Plane = 0.4792
+%MSG-i SimpleChannelStatusService:  Early 04-Dec-2018 05:45:54 CST JobSetup
+Loaded from configuration:
+  - 0 bad channels
+  - 0 noisy channels
+  - largest channel ID: 15359, largest present: 15359
+%MSG
+%MSG-i setupProvider<DetectorPropertiesStandard>:  Early  04-Dec-2018 05:45:55 CST JobSetup
+Asked to ignore 1 keys: 'InheritNumberTimeSamples'
+%MSG
+%MSG-i SignalShapingServiceDUNE:  Early 04-Dec-2018 05:45:56 CST JobSetup
+Getting Filter from .fcl file
+%MSG
+%MSG-i SignalShapingServiceDUNE:  Early 04-Dec-2018 05:45:56 CST JobSetup
+ using the field response provided from a .root file 
+%MSG
+%MSG-s ArtException:  Early 04-Dec-2018 05:45:57 CST JobSetup
+cet::exception caught in art
+---- CatalogServiceError BEGIN
+  Input file not found: try1.root.
+---- CatalogServiceError END
+%MSG
